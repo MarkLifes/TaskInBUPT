@@ -23,6 +23,9 @@ class BinaryTree
     void preOrder() const;
     void inOrder() const;
     void postOrder() const;
+    void levelOrder() const ;
+        int treeDepth() const;
+    bool printPath(int data) const;
 
   private:
     struct BinaryNode
@@ -53,6 +56,9 @@ class BinaryTree
     void preOrder(BinaryNode *bNode) const;
     void inOrder(BinaryNode *bNode) const;
     void postOrder(BinaryNode *bNode) const;
+    void levelOrder(BinaryNode *bNode)const;
+    int treeDepth(BinaryNode *bNode) const;
+    bool printPath(int data, BinaryNode *bNode) const;
 };
 
 #endif //BINARYTREE_BINARYTREE_H_H

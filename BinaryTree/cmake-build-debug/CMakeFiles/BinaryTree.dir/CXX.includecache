@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.cpp
+/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.cpp
+iostream
+-
+queue
+-
+BinaryTree.h
+/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.h
+
+/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.h
+iostream
+-
+
+/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/main.cpp
 iostream
 -
 BinaryTree.h
-/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.h
-
-/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.h
-iostream
--
-
-/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/main.cpp
-iostream
--
-BinaryTree.h
-/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.h
+/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.h
 BinaryTree.cpp
-/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.cpp
+/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.cpp
 

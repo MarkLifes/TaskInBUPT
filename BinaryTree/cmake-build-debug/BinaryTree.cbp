@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BinaryTree">
-				<Option output="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/BinaryTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/BinaryTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinaryTree"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinaryTree"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BinaryTree/fast">
-				<Option output="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/BinaryTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/BinaryTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,23 +73,23 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinaryTree/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinaryTree/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.cpp">
+		<Unit filename="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.cpp">
 			<Option target="BinaryTree"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.h">
+		<Unit filename="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.h">
 			<Option target="BinaryTree"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/main.cpp">
+		<Unit filename="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/main.cpp">
 			<Option target="BinaryTree"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Tsang/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BinaryTree.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/BinaryTree.dir/flags.make
 
 CMakeFiles/BinaryTree.dir/main.cpp.o: CMakeFiles/BinaryTree.dir/flags.make
 CMakeFiles/BinaryTree.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BinaryTree.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryTree.dir/main.cpp.o -c /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BinaryTree.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryTree.dir/main.cpp.o -c /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/main.cpp
 
 CMakeFiles/BinaryTree.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinaryTree.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/main.cpp > CMakeFiles/BinaryTree.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/main.cpp > CMakeFiles/BinaryTree.dir/main.cpp.i
 
 CMakeFiles/BinaryTree.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinaryTree.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/main.cpp -o CMakeFiles/BinaryTree.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/main.cpp -o CMakeFiles/BinaryTree.dir/main.cpp.s
 
 CMakeFiles/BinaryTree.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/BinaryTree.dir/main.cpp.o.provides.build: CMakeFiles/BinaryTree.dir/m
 
 CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o: CMakeFiles/BinaryTree.dir/flags.make
 CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o: ../BinaryTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o -c /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o -c /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.cpp
 
 CMakeFiles/BinaryTree.dir/BinaryTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinaryTree.dir/BinaryTree.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.cpp > CMakeFiles/BinaryTree.dir/BinaryTree.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.cpp > CMakeFiles/BinaryTree.dir/BinaryTree.cpp.i
 
 CMakeFiles/BinaryTree.dir/BinaryTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinaryTree.dir/BinaryTree.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/BinaryTree.cpp -o CMakeFiles/BinaryTree.dir/BinaryTree.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/BinaryTree.cpp -o CMakeFiles/BinaryTree.dir/BinaryTree.cpp.s
 
 CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o.requires:
 
@@ -117,7 +117,7 @@ BinaryTree.exe: CMakeFiles/BinaryTree.dir/main.cpp.o
 BinaryTree.exe: CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o
 BinaryTree.exe: CMakeFiles/BinaryTree.dir/build.make
 BinaryTree.exe: CMakeFiles/BinaryTree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BinaryTree.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BinaryTree.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BinaryTree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/BinaryTree.dir/clean:
 .PHONY : CMakeFiles/BinaryTree.dir/clean
 
 CMakeFiles/BinaryTree.dir/depend:
-	cd /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug /cygdrive/c/Users/Tsang/CLionProjects/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug /cygdrive/c/Users/Tsang/Documents/GitHub/TaskInBUPT/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BinaryTree.dir/depend
 

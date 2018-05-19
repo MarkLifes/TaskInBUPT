@@ -3,8 +3,9 @@
 //
 
 #include <iostream>
+#include <queue>
 #include "BinaryTree.h"
-
+using namespace std;
 template <typename T>
 BinaryTree<T>::BinaryTree(const BinaryTree &bt)
 {
@@ -74,6 +75,24 @@ template <typename T>
 void BinaryTree<T>::postOrder() const
 {
     postOrder(root);
+};
+
+template <typename T>
+void BinaryTree<T>::levelOrder() const
+{
+    levelOrder(root);
+};
+
+template <typename T>
+int BinaryTree<T>::treeDepth() const
+{
+    treeDepth(root);
+};
+
+template <typename T>
+bool BinaryTree<T>::printPath(int data) const
+{
+    printPath(data,root);
 };
 
 template <typename T>
@@ -231,3 +250,51 @@ void BinaryTree<T>::postOrder(BinaryNode *bNode) const
     postOrder(bNode->rightNode);
     std::cout << bNode->element << " ";
 };
+
+template <typename T>
+void BinaryTree<T>::levelOrder(BinaryNode* bNode) const
+{
+		if (bNode == NULL) {
+			return;
+		}
+		queue<BinaryNode*> q;
+		q.push(bNode);
+		while (!q.empty()) {
+			BinaryNode* cur = q.front();
+			q.pop();
+			cout << cur->element << " ";
+			if (cur->leftNode) {
+				q.push(cur->leftNode);
+			}
+			if (cur->rightNode) {
+				q.push(cur->rightNode);
+			}
+		}
+	}
+
+template <typename T>
+int BinaryTree<T>::treeDepth(BinaryNode *bNode) const
+{
+    if (bNode == NULL)
+        return 0;
+
+    int left = treeDepth(bNode->leftNode);
+    int right = treeDepth(bNode->rightNode);
+    return left > right ? left + 1 : right + 1;
+}
+
+template <typename T>
+bool BinaryTree<T>::printPath(int data, BinaryNode *bNode) const
+{
+    if (bNode == NULL)
+        return false;
+
+    if (bNode->element == data || printPath(reinterpret_cast<int>(bNode->leftNode)) || printPath(
+            reinterpret_cast<int>(bNode->rightNode)))
+    {
+        cout << bNode->element;
+        return true;
+    }
+
+    return false;
+}
