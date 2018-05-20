@@ -92,7 +92,7 @@ int BinaryTree<T>::treeDepth() const
 template <typename T>
 bool BinaryTree<T>::printPath(int data) const
 {
-    printPath(data,root);
+    printPath(data, root);
 };
 
 template <typename T>
@@ -146,7 +146,7 @@ void BinaryTree<T>::remove(const T &theElement, BinaryNode *&t)
             remove(t->rightNode);
         }
         else if (nullptr != t->leftNode && nullptr != t->rightNode)
-        { //需要删除的节点两个儿子
+        {
 
             t->element = findMin(t->rightNode)->element;
             remove(t->element, t->rightNode);
@@ -189,7 +189,7 @@ bool BinaryTree<T>::isFind(const T &theElement, BinaryNode *t) const
         return isFind(theElement, t->rightNode);
     }
     else
-    { //匹配
+    {
         return true;
     }
 };
@@ -252,25 +252,29 @@ void BinaryTree<T>::postOrder(BinaryNode *bNode) const
 };
 
 template <typename T>
-void BinaryTree<T>::levelOrder(BinaryNode* bNode) const
+void BinaryTree<T>::levelOrder(BinaryNode *bNode) const
 {
-		if (bNode == NULL) {
-			return;
-		}
-		queue<BinaryNode*> q;
-		q.push(bNode);
-		while (!q.empty()) {
-			BinaryNode* cur = q.front();
-			q.pop();
-			cout << cur->element << " ";
-			if (cur->leftNode) {
-				q.push(cur->leftNode);
-			}
-			if (cur->rightNode) {
-				q.push(cur->rightNode);
-			}
-		}
-	}
+    if (bNode == NULL)
+    {
+        return;
+    }
+    queue<BinaryNode *> q;
+    q.push(bNode);
+    while (!q.empty())
+    {
+        BinaryNode *cur = q.front();
+        q.pop();
+        cout << cur->element << " ";
+        if (cur->leftNode)
+        {
+            q.push(cur->leftNode);
+        }
+        if (cur->rightNode)
+        {
+            q.push(cur->rightNode);
+        }
+    }
+}
 
 template <typename T>
 int BinaryTree<T>::treeDepth(BinaryNode *bNode) const
@@ -289,8 +293,7 @@ bool BinaryTree<T>::printPath(int data, BinaryNode *bNode) const
     if (bNode == NULL)
         return false;
 
-    if (bNode->element == data || printPath(reinterpret_cast<int>(bNode->leftNode)) || printPath(
-            reinterpret_cast<int>(bNode->rightNode)))
+    if (bNode->element == data || printPath(reinterpret_cast<int>(bNode->leftNode)) || printPath(reinterpret_cast<int>(bNode->rightNode)))
     {
         cout << bNode->element;
         return true;
